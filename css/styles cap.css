@@ -1,7 +1,8 @@
 html, body {
-    height: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
   }
 
 body {
@@ -52,7 +53,7 @@ a {
 }
 
 a:hover {
-    font-size: 22px;
+    font-size: 20px;
     color:#1385ff;
 }
 
@@ -72,7 +73,3 @@ a:hover {
 .navegacao {
     margin-top: 20px; 
 }
-
-footer {
-    position: bottom;
-]
