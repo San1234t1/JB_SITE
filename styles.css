@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(115deg,rgba(118, 118, 118, 0.8),rgba(202, 202, 202, 0.7)
+    ), url("../materiais/site icon.png");
+    background-repeat: no-repeat;  
+    background-size: cover;       
+    background-position: center;
+}
+
+header {
+    background-color: #06111e;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 20px
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+}
+
+#morecaps {
+    font-size: 10px;
+    color:#114174;
+    text-align: center;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #114174;
+    font-size: 20px;
+    transition: all 0.9s ease;
+}
+
+a:hover {
+    font-size: 22px;
+    color:#1385ff;
+}
+
+#conteudo-capitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.pagina {
+    width: 90%;
+    margin-bottom: 10px;
+    max-width:800px;
+}
+
+.navegacao {
+    margin-top: 20px; 
+}
+
+footer {
+    position: bottom;
+]
